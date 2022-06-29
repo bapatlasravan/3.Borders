@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Borders</title>
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h1.css">
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h2.css">
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.one {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: thick;
+}
+
+#one{
+	color:red;
+	border-style: solid;
+}
+#two{
+	color:ff0000;
+	border-style: solid;
+}
+#three{
+	color:rgb(255,0,0);
+	border-style: solid;
+}
+#four{
+	color:hsl(0, 100%, 50%);
+	border-style: solid;
+}
+p.four {
+  border-style: dotted solid double dashed;
+}
+
+p.five {
+  border-style: dotted solid double;
+}
+
+p.six {
+  border-style: dotted solid;
+}
+
+p.seven {
+  border-style: dotted;
+}
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+	<h1><u>Borders</u></h1>
+	<p>The CSS border is a shorthand property used to set the border on an element.
+	 The CSS border properties are use to specify the style, color and size of the border of an element.the syntax of the 
+	the border is</p>
+	selector{<br>
+		property:value;<br>
+		}<br>
+	<h2><u>Border Style</u></h2>
+	<p>The syntax of the border style was<br>
+	 selector{<br>
+	 	border-style:style name;<br>
+	}<br></p><center>
+	<p>There are 11 types of border styles are there they are:</p>
+	<p class="dotted">A dotted border.</p>
+	<p class="dashed">A dashed border.</p>
+	<p class="solid">A solid border.</p>
+	<p class="double">A double border.</p>
+	<p class="groove">A groove border.</p>
+	<p class="ridge">A ridge border.</p>
+	<p class="inset">An inset border.</p>
+	<p class="outset">An outset border.</p>
+	<p class="none">No border.</p>
+	<p class="hidden">A hidden border.</p>
+	<p class="mix">A mixed border.</p></center><br><br><hr><hr>
+	
+	<h2><u>Border width:-</u></h2>
+	<p>The border-width property specifies the width of the four borders.
+	The width can be set as a specific size (in px, pt, cm, em, etc) or by using one 
+	of the three pre-defined values: thin, medium, or thick the synatx for the border width is:</p>
+	selector{
+	border-width:px(or)medium,high,low(or)thick,thin;
+	<center><p class="one">dotted 5px</p>
+	<p class="two"> solid medium</p>
+	<p class="three">dotted thick</p></center><br><br><hr><hr>
+
+	<h2><u>Border color:-</u></h2>
+	<p>The border-color property is used to set the color of the four borders.
+
+	The color can be set by:
+
+	<center><li id="one">name - specify a color name, like "red"</li><br>
+	<li id="two">HEX - specify a HEX value, like "#ff0000"</li><br>
+	<li id="three">RGB - specify a RGB value, like "rgb(255,0,0)"</li><br>
+	<li id="four">HSL - specify a HSL value, like "hsl(0, 100%, 50%)"</li><br>
+	<li id="five">transparent</li></p></center><br><br><hr><hr>
+
+
+	<h2><u>CSS Border sides:-</u></h2>
+	<p>In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left), in css the border sides as represented as clockwise i.e.
+	top,right,botom,left. The syntax of the css border side is</p>
+	selector {<br>
+		border-style:stylename1 stylename2 stylename3 stylename4<br>
+		}<br>
+	<center><p class="four">4 different border styles.( dotted solid double dashed)</p>
+	<p class="five">3 different border styles.(dotted solid double)</p>
+	<p class="six">2 different border styles.(dotted solid)</p>
+	<p class="seven">1 border style.(dotted)</p></center><br><br><hr><hr>
+
+
+	<h2><u>CSS border-radius:-</u></h2>
+	<p>The border-radius property is used to add rounded borders to an element, the synatx of the border radius was:</p>
+	selector{<br>
+		border-style:stylename;<br>
+		border-radius:sizepx;<br>
+		padding:sizepx;<br>
+		}<br>
+	<center>
+	<p class="normal">Normal border</p>
+	<p class="round1">Round border</p>
+	<p class="round2">Rounder border</p>
+	<p class="round3">Roundest border</p>
+	</center><br><br><hr><hr>
+	
+
+</body>
+</html>
